@@ -12,6 +12,8 @@
     table > tbody > tr > th {color: greenyellow;}
     #action > h1:hover{color: red;}
     #action > h1:active{color: blue;}
+    #status > input:enabled {background-color:gray; }
+    #status > input:disabled {background-color: orange;}
     </style>
  </head>
  <body>
@@ -52,7 +54,9 @@
      <hr>
      <div id="status">
          <h2>사용가능</h2>
-         <input disabled="disabled">
+         <input>
+         <h2>사용불가능</h2>
+          <input disabled="disabled">
      </div>
  </body>
 
